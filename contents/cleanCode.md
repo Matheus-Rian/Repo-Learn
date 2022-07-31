@@ -1,0 +1,1 @@
+1. Não escrever código cansado.

@@ -18,3 +18,25 @@ class Pessoa {
 ```
 
 Uma pessoa tem várias características, mas abstraimos todas elas e usamos apenas o que for necessário para o nosso código funcionar!
+
+## Encapsulamento
+
+Visa ocultar partes internas de um objeto e exibir apenas o necessário para uso externo.
+
+```ts
+class RemoteControl {
+  constructor(private powerStatus = false) { }
+ 
+  public turnOn() {
+    this.powerStatus = true;
+  }
+
+  public turnOff() {
+    this.powerStatus = false;
+  }
+
+  public getStatus() {
+    return this.powerStatus;
+  }
+}
+```

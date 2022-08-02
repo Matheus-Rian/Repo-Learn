@@ -40,3 +40,26 @@ class RemoteControl {
   }
 }
 ```
+
+## Herança
+
+Visa passar características de um objeto para outro.
+
+```ts
+abstract class Animal {
+  constructor(public name: string) {}
+  abstract makeNoise(): void;
+}
+
+class Dog extends Animal {
+  makeNoise(): void {
+    console.log(`${this.name} está fazendo AU AU...`);
+  }
+}
+
+class Cat extends Animal {
+  makeNoise(): void {
+    console.log(`${this.name} está fazendo MIAU...`);
+  }
+}
+```

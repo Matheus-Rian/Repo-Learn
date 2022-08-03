@@ -12,3 +12,11 @@ Para ter essa certeza, precisamos testar o nosso código a cada mudança que efe
 2. Você não pode escrever mais de um teste de unidade do que o suficiente para a falha - e não compilar é ter efeito.
 
 3. Você não pode escrever mais códigos de produção que sejam suficientes para passar pelo atual teste de unidade.
+
+### Benefícios
+
+* Certeza
+* Taxa de injeção de defeitos
+* Coragem
+* Documentação
+* Design

@@ -10,3 +10,4 @@ Melhor caso, caso nominal e pior caso.
 9. De todos os comportamentos antiprofissionais que um programador pode ter, talvez o pior seja dizer que você terminou quando, na verdade, não o fez.
 10. Como profissional temos a responsabilidade de manter certos padrões. O código precisa ser testado. Precisa ser limpo. E precisa ter a certeza que não quebrou mais nada dentro do sistema.
 11. Sua carreira é sua responsabilidade.
+12. Profissionalismo tem tudo a ver com assumir responsabilidades.

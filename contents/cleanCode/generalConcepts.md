@@ -8,3 +8,4 @@ Melhor caso, caso nominal e pior caso.
 7. Verdadeiros profissionais trabalham firme para manter suas habilidades afiadas e prontas.
 8. O desenvolvedor profissional é calmo e decisivo sob pressão.
 9. De todos os comportamentos antiprofissionais que um programador pode ter, talvez o pior seja dizer que você terminou quando, na verdade, não o fez.
+10. Como profissional temos a responsabilidade de manter certos padrões. O código precisa ser testado. Precisa ser limpo. E precisa ter a certeza que não quebrou mais nada dentro do sistema. 

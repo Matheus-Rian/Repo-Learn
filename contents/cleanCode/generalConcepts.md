@@ -6,3 +6,4 @@ Melhor caso, caso nominal e pior caso.
 5. A única maneira de ir mais rápido é sempre manter o código limpo.
 6. Diga. Seja honesto. Faça.
 7. Verdadeiros profissionais trabalham firme para manter suas habilidades afiadas e prontas.
+8. O desenvolvedor profissional é calmo e decisivo sob pressão.

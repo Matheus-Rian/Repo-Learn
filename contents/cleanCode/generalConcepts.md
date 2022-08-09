@@ -13,3 +13,4 @@ Melhor caso, caso nominal e pior caso.
 12. Profissionalismo tem tudo a ver com assumir responsabilidades.
 13. Programação tem tudo a ver com trabalhar com pessoas.
 14. Administre seu estresse.
+15. Ser capaz de sentir os erros é realmente importante.

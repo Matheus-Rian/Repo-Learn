@@ -12,3 +12,4 @@ Melhor caso, caso nominal e pior caso.
 11. Sua carreira é sua responsabilidade.
 12. Profissionalismo tem tudo a ver com assumir responsabilidades.
 13. Programação tem tudo a ver com trabalhar com pessoas.
+14. Administre seu estresse.

@@ -11,3 +11,4 @@ Melhor caso, caso nominal e pior caso.
 10. Como profissional temos a responsabilidade de manter certos padrões. O código precisa ser testado. Precisa ser limpo. E precisa ter a certeza que não quebrou mais nada dentro do sistema.
 11. Sua carreira é sua responsabilidade.
 12. Profissionalismo tem tudo a ver com assumir responsabilidades.
+13. Programação tem tudo a ver com trabalhar com pessoas.

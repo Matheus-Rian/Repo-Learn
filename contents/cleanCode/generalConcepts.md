@@ -15,3 +15,8 @@ Melhor caso, caso nominal e pior caso.
 14. Administre seu estresse.
 15. Ser capaz de sentir os erros é realmente importante.
 16. Não seja desleixado com a precisão de suas decisões.
+
+
+## Code
+
+1. Evite condições negativas.

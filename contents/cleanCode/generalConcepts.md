@@ -14,3 +14,4 @@ Melhor caso, caso nominal e pior caso.
 13. Programação tem tudo a ver com trabalhar com pessoas.
 14. Administre seu estresse.
 15. Ser capaz de sentir os erros é realmente importante.
+16. Não seja desleixado com a precisão de suas decisões.

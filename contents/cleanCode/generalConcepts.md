@@ -19,4 +19,5 @@ Melhor caso, caso nominal e pior caso.
 
 ## Code
 
-1. Evite condições negativas.
+1. Evite condições negativas;
+2. As funções devem fazer uma coisa só;

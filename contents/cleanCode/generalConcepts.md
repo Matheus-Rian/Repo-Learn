@@ -26,3 +26,4 @@ Melhor caso, caso nominal e pior caso.
 5. Encapsule as condicionais;
 6. Nomes de funções devem dizer o que elas fazem;
 7. Efetue todos os testes;
+8. Sem repetição de código;

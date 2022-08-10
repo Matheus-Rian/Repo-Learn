@@ -23,3 +23,4 @@ Melhor caso, caso nominal e pior caso.
 2. As funções devem fazer uma coisa só;
 3. Escolha nomes descritivos;
 4. Não pule testes triviais;
+5. Encapsule as condicionais;

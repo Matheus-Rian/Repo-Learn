@@ -16,6 +16,8 @@ Melhor caso, caso nominal e pior caso.
 15. Ser capaz de sentir os erros é realmente importante.
 16. Não seja desleixado com a precisão de suas decisões.
 17. Otimize a tomada de decisão.
+17. Otimize a tomada de decisão.
+
 
 
 ## Code

@@ -18,8 +18,6 @@ Melhor caso, caso nominal e pior caso.
 17. Otimize a tomada de decisão.
 17. Otimize a tomada de decisão.
 
-
-
 ## Code
 
 1. Evite condições negativas;

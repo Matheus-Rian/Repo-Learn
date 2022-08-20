@@ -5,3 +5,4 @@
 3. As funções devem fazer uma coisa. Devem fazê-la bem. Devem fazer apenas ela;
 4. Um nível de abstração por função;
 5. Use nomes descritivos;
+6. Evite efeitos colaterais;

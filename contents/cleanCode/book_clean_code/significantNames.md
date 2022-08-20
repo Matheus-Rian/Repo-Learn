@@ -7,3 +7,4 @@ Ele deve lhe dizer porque existe, o que faz e como é usado. Se um nome requer u
 4. Use nomes passíveis de busca;
 5. Clareza é fundamental;
 6. Classes e objetos devem ter nomes com substantivo;
+7. Os nomes de métodos devem ter verbos;

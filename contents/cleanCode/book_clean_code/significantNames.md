@@ -5,3 +5,4 @@ Ele deve lhe dizer porque existe, o que faz e como é usado. Se um nome requer u
 2. Cuidado ao usar nomes parecidos;
 3. Use nomes pronunciáveis;
 4. Use nomes passíveis de busca;
+5. Clareza é fundamental;

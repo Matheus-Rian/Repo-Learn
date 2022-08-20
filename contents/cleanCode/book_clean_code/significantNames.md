@@ -9,3 +9,4 @@ Ele deve lhe dizer porque existe, o que faz e como é usado. Se um nome requer u
 6. Classes e objetos devem ter nomes com substantivo;
 7. Os nomes de métodos devem ter verbos;
 8. Escolha uma palavra por cada conceito abstrato e fique com ela;
+9. Evite usar a mesma palavra para dois propósitos;

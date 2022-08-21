@@ -3,7 +3,7 @@
 ## Abstração
 
 Permite isolar de um objeto somente os conceitos que são necessários para o funcionamento do programa.
-
+Modelando apenas atributos e comportamentos específicos.
 
 ```ts
 class Pessoa {

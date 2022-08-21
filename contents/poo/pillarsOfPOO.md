@@ -67,6 +67,8 @@ class Cat extends Animal {
 ## Polimorfismo
 
 Algo que é polimorfo tem a habilidade de assumir diferentes formas.
+O Polimorfismo é a habilidade de um programa detectar a classe real de um objeto e chamar sua implementação mesmo
+quando seu tipo real é desconhecido no contexto atual
 
 ```ts
 class AnimalSounds {

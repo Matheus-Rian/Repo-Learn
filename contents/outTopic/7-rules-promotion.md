@@ -5,3 +5,4 @@
 3. Resolva problemas como engenheiro de software;
 4. Aumente seu repertório;
 5. Tenha bons mentores;
+6. Conhecimento em largura.

@@ -19,4 +19,9 @@ ter uma associação bi-direcional é uma coisa completamente
 normal. Neste caso, a flecha precisa apontar para ambos. A
 associação pode ser vista como um tipo especializado de dependência, onde um objeto sempre tem acesso aos objetos os
 quais ele interage, enquanto que a dependência simples não
-estabelece uma ligação permanente entre os objetos
+estabelece uma ligação permanente entre os objetos.
+
+## Agregação
+
+Agregação é um tipo especializado de associação que representa relações individuais (one-to-many), múltiplas (many-to-many), e totais (whole-part) entre múltiplos objetos.
+Geralmente, sob agregação, um objeto “tem” um conjunto de outros objetos e serve como um contêiner ou coleção. O componente pode existir sem o contêiner e pode ser ligado através de vários contêineres ao mesmo tempo. 

@@ -19,8 +19,7 @@ descrição de um padrão:
 * As **Estruturas** de classes mostram cada parte do padrão e como
 se relacionam.
 
-Alguns catálogos de padrão listam outros detalhes úteis, tais
-como a aplicabilidade do padrão, etapas de implementação, e
+Alguns catálogos de padrão listam outros detalhes úteis, tais como a aplicabilidade do padrão, etapas de implementação, e
 relações com outros padrões.
 
 ## Classificação dos padrões 

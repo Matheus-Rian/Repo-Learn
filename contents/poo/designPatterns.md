@@ -36,3 +36,9 @@ código.
 * Os **padrões estruturais** explicam como montar objetos e classes em estruturas maiores, enquanto ainda mantém as estruturas flexíveis e eficientes.
 
 * Os **padrões comportamentais** cuidam da comunicação eficiente e da assinalação de responsabilidades entre objetos.
+
+## Características de um bom projeto
+
+* Reutilização de código
+
+* Extensibilidade (Mudança é a única constante na vida de um programador).

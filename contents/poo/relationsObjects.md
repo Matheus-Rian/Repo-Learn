@@ -25,3 +25,8 @@ estabelece uma ligação permanente entre os objetos.
 
 Agregação é um tipo especializado de associação que representa relações individuais (one-to-many), múltiplas (many-to-many), e totais (whole-part) entre múltiplos objetos.
 Geralmente, sob agregação, um objeto “tem” um conjunto de outros objetos e serve como um contêiner ou coleção. O componente pode existir sem o contêiner e pode ser ligado através de vários contêineres ao mesmo tempo. 
+
+## Composição
+
+A composição é um tipo específico de agregação, onde um objeto é composto de um ou mais instâncias de outro. A distinção
+o entre esta relação e as outras é que o componente só pode existir como parte de um contêiner.

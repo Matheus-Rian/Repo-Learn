@@ -22,3 +22,17 @@ se relacionam.
 Alguns catálogos de padrão listam outros detalhes úteis, tais
 como a aplicabilidade do padrão, etapas de implementação, e
 relações com outros padrões.
+
+## Classificação dos padrões 
+
+Padrões de projeto diferem por sua complexidade, nível de detalhes, e escala de aplicabilidade ao sistema inteiro sendo desenvolvido.
+
+### Três grupos principais de padrões:
+
+* Os **padrões criacionais** fornecem mecanismos de criação de
+objetos que aumentam a flexibilidade e a reutilização de
+código.
+
+* Os **padrões estruturais** explicam como montar objetos e classes em estruturas maiores, enquanto ainda mantém as estruturas flexíveis e eficientes.
+
+* Os **padrões comportamentais** cuidam da comunicação eficiente e da assinalação de responsabilidades entre objetos.

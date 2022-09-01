@@ -71,3 +71,10 @@ A ideia principal deste princípio é prevenir que o código existente quebre qu
 Se a classe já foi desenvolvida, testada, revisada, e incluída em algum framework ou é de alguma forma já usada na aplicação, tentar mexer com seu código é arriscado. Ao invés de mudar o código da classe diretamente, você pode criar subclasses e sobrescrever partes da classe original que você quer que se comporte de forma diferente. Você vai cumprir seu objetivo mas também não quebrará os clientes existentes da classe original.
 
 Este princípio não foi feito para ser aplicado para todas as mudanças de uma classe. Se você sabe que há um bug na classe, apenas vá e corrija-o; não crie uma subclasse para ele. Uma classe filha não deveria ser responsável pelos problemas da classe mãe.
+
+## L - Liskov Substitution Principle
+> Princípio de substituição de Liskov
+
+Quando estendendo uma classe, lembre-se que você deve ser capaz de passar objetos da subclasse em lugar de objetos da classe mãe sem quebrar o código cliente.
+
+Isso significa que a subclasse deve permanecer compatível com o comportamento da superclasse. Quando sobrescrevendo um método, estenda o comportamento base ao invés de substituí-lo com algo completamente diferente.

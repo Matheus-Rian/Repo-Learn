@@ -11,3 +11,51 @@ Como tudo na vida, usar estes princípios sem cuidado pode causar mais males que
 Tente fazer com que cada classe seja responsável por uma única parte da funcionalidade fornecida pelo software, e faça aquela responsabilidade ser inteiramente encapsulada pela (podemos também dizer escondida dentro da) classe.
 
 Se uma classe faz muitas coisas, você terá que mudá-la cada vez que uma dessas coisas muda. Enquanto faz isso, você está arriscando quebrar outras partes da classe que você nem pretendia mexer. Se em determinado momento você sente que está se tornando difícil focar em aspectos específicos de um programa, lembre-se do princípio da responsabilidade única e verifique se já não é hora de dividir algumas classes em partes.
+
+### Exemplo:
+
+Classe Empregado tem vários motivos para mudar. O primeiro motivo pode ser relacionado a função principal da classe: gerenciar os dados dos empregados. Contudo, há outro motivo: o formato do relatório da tabela de tempos pode mudar com o tempo, fazendo com que você mude o código dentro da classe.
+
+**ANTES**
+
+```ts
+class Employee {
+  constructor (
+    private name: string,
+  ) {}
+
+  getName() {
+    return this.name;
+  }
+
+  printTimeSheetReport() {
+    console.log('printing...');
+  }
+}
+```
+
+Resolva o problema movendo o comportamento relacionado aos relatórios para uma classe em separado. Essa mudança permite que você mova outras coisas relacionadas ao relatório para a nova classe.
+
+**DEPOIS**
+
+```ts
+class Employee {
+  constructor(
+    private name: string,
+  ) {}
+
+  getName() {
+    return this.name;
+  }
+}
+
+class TimeSheetReport {
+  print(employee: Employee) {
+    console.log(employee.getName());
+  }
+}
+
+const e = new Employee('Matheuss');
+const t = new TimeSheetReport();
+t.print(e);
+```

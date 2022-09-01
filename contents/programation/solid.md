@@ -5,6 +5,7 @@ O SOLID é uma sigla mnemônica em inglês para cinco princípios de projeto des
 Como tudo na vida, usar estes princípios sem cuidado pode causar mais males que bem. O custo de aplicar estes princípios na arquitetura de um programa pode ser torná-lo mais complicado que deveria ser. Eu duvido que haja um produto de software de sucesso na qual todos estes princípios foram aplicados ao mesmo tempo. Empenhar-se para seguir estes princípios é bom, mas sempre tente ser pragmático e não tome tudo que está escrito aqui como um dogma.
 
 ## S - Single Responsibility Principle
+> Princípio de Responsabilidade única
 
 **Uma classe deve ter apenas uma razão para mudar.**
 
@@ -59,3 +60,14 @@ const e = new Employee('Matheuss');
 const t = new TimeSheetReport();
 t.print(e);
 ```
+
+## O - Open/Closed Principle
+> Princípio aberto/fechado
+
+As classes devem ser abertas para extensão mas fechadas para modificação.
+
+A ideia principal deste princípio é prevenir que o código existente quebre quando você implementa novas funcionalidades.
+
+Se a classe já foi desenvolvida, testada, revisada, e incluída em algum framework ou é de alguma forma já usada na aplicação, tentar mexer com seu código é arriscado. Ao invés de mudar o código da classe diretamente, você pode criar subclasses e sobrescrever partes da classe original que você quer que se comporte de forma diferente. Você vai cumprir seu objetivo mas também não quebrará os clientes existentes da classe original.
+
+Este princípio não foi feito para ser aplicado para todas as mudanças de uma classe. Se você sabe que há um bug na classe, apenas vá e corrija-o; não crie uma subclasse para ele. Uma classe filha não deveria ser responsável pelos problemas da classe mãe.

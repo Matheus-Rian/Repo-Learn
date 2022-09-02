@@ -78,3 +78,15 @@ Este princípio não foi feito para ser aplicado para todas as mudanças de uma 
 Quando estendendo uma classe, lembre-se que você deve ser capaz de passar objetos da subclasse em lugar de objetos da classe mãe sem quebrar o código cliente.
 
 Isso significa que a subclasse deve permanecer compatível com o comportamento da superclasse. Quando sobrescrevendo um método, estenda o comportamento base ao invés de substituí-lo com algo completamente diferente.
+
+## I - Interface Segregation Principle
+> Princípio de segregação de interface
+
+Clientes não devem ser forçados a depender de métodos que não usam.
+
+Fazer com que suas interfaces sejam reduzidas o suficiente para que as classes cliente não tenham que implementar
+comportamentos que não precisam.
+
+De acordo com o princípio de segregação de interface, você deve quebrar interfaces “gordas” em classes mais granulares e específicas. Os clientes devem implementar somente aqueles métodos que realmente precisam. Do contrário, uma mudança em uma interface “gorda” irá quebrar clientes que nem sequer usam os métodos modificados.
+
+Como com os outros princípios, você pode exagerar com este aqui. Não divida mais uma interface que já está bastante específica. Lembre-se que, quanto mais interfaces você cria, mais complexo seu código se torna. Mantenha o equilíbrio.

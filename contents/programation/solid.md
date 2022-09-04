@@ -90,3 +90,7 @@ comportamentos que não precisam.
 De acordo com o princípio de segregação de interface, você deve quebrar interfaces “gordas” em classes mais granulares e específicas. Os clientes devem implementar somente aqueles métodos que realmente precisam. Do contrário, uma mudança em uma interface “gorda” irá quebrar clientes que nem sequer usam os métodos modificados.
 
 Como com os outros princípios, você pode exagerar com este aqui. Não divida mais uma interface que já está bastante específica. Lembre-se que, quanto mais interfaces você cria, mais complexo seu código se torna. Mantenha o equilíbrio.
+
+## D - Dependency Inversion Principle
+
+Classes de alto nível não deveriam depender de classes de baixo nível. Ambas devem depender de abstrações. As abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.

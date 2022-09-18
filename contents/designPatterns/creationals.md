@@ -9,3 +9,7 @@ Padrão criacional de projeto que fornece uma interface para criar objetos em um
 ## Abstract Factory 
 
 Padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.
+
+## Singleton
+
+A inteção é garantir que uma classe tenha somente uma instância no programa e fornecer um ponto de acesso global para a mesma.

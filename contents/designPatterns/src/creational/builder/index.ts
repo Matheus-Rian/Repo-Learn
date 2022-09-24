@@ -1,58 +1,13 @@
-/**
- * A interface Builder específica os métodos para criar diferentes partes de uma postOrder(Exemplo)
- */
-interface BuilderPostOrder {
-  postOrderLive(): void;
-  postOrderMovelPlan(): void;
-  postOrderMovelPrice(): void;
-}
+import { MainDishBuilder } from './classes/main-dish-builder';
+import { VeganDishBuilder } from './classes/vegan-dish-builder';
 
-class ConcreteBuilder implements BuilderPostOrder {
-  private resultPostOrder: ResultPostOrder;
+const mainDishBuilder = new MainDishBuilder();
+mainDishBuilder.makeMeal().makeDessert();
+console.log(mainDishBuilder.getMeal());
 
-  constructor() {
-    this.reset();
-  }
+mainDishBuilder.reset();
+const meal2 = mainDishBuilder.makeBeverage().getMeal();
+console.log(meal2);
 
-  postOrderLive(): void {
-    this.resultPostOrder.postOrder.live.plan = 'CONTROLE-LIVE';
-    this.resultPostOrder.postOrder.live.price = 'R$ 1,00';
-  }
-  
-  postOrderMovelPlan(): void {
-    this.resultPostOrder.postOrder.movel.plan = 'CONTROLE-MOVEL';
-  }
-
-  postOrderMovelPrice(): void {
-    this.resultPostOrder.postOrder.movel.price = 'R$ 2,00';
-  }
-
-  reset(): void {
-    this.resultPostOrder = new ResultPostOrder();
-  }
-
-  public getPostOrder(): ResultPostOrder {
-    const result = this.resultPostOrder;
-    this.reset();
-    return result;
-  }
-}
-
-type postOrder = {
-  live: {
-    price: string,
-    plan: string
-  };
-  movel: {
-    price: string,
-    plan: string
-  };
-};
-
-class ResultPostOrder {
-  public postOrder: postOrder = {} as postOrder;
-
-  public listPostOrder(): void {
-    console.log(`postOrder: ${this.postOrder}`);
-  }
-}
+const veganDishBuilder = new VeganDishBuilder();
+console.log(veganDishBuilder.makeMeal().getMeal());

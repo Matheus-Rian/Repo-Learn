@@ -5,6 +5,6 @@ export class IndividualVehicle implements Vehicle {
   constructor (public name: string, private readonly customer: Customer) {}
 
   pickUp(): void {
-    console.log(`${this.name} está buscando ${this.customer}`);
+    console.log(`Individual ${this.name} está buscando ${this.customer.name}`);
   }
 }

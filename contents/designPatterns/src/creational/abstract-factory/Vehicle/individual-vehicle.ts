@@ -1,5 +1,5 @@
-import { Customer } from "../interfaces/customer";
-import { Vehicle } from "../interfaces/vehicle";
+import { Customer } from "../customer/customer";
+import { Vehicle } from "./vehicle";
 
 export class IndividualVehicle implements Vehicle {
   constructor (public name: string, private readonly customer: Customer) {}

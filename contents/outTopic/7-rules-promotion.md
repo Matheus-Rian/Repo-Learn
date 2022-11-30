@@ -7,3 +7,5 @@
 5. Tenha bons mentores;
 6. Conhecimento em largura;
 7. Busque autonomia;
+
+*Esse é o commit nº 1000 (2022)*

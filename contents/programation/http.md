@@ -3,6 +3,8 @@ Pontos mais importantes:
   - Method
   - url 
 
+- Headers(Cabeçalhos - Requisição/Response) => Metadatas
+
 ## Mais usados serão: GET, POST, PUT, PATCH e DELETE
 
 - GET => Buscar um recurso do back-end

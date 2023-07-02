@@ -4,10 +4,8 @@
 2. Após isso iremos criar duas pastas: packages > tokens.
 3. Entraremos na pasta tokens e lançamos um "npm init -y"
 4. Dentro deste package gerado mudar a chave "name" para name: "@nome_da_org/tokens"
-5. criar uma pasta 'src' e adicionar seus arquivos de tokens (colors.ts e etc...)
+5. criar uma pasta 'src' e adicionar seus arquivos de tokens (colors.ts, fontsFamily, fontsWeights e etc...)
 6. Em seguida, criar um arquivo index.ts para fazer as importações de todos os tokens;
-7. No package do tokens, iremos add o typescript (npm i -D typescript), em seguida "npx tsc --init"
-
 ```ts
 // packages > tokens > src > colors.ts
 
@@ -35,4 +33,19 @@ export const colors = {
 
 export * from './colors'
 
+```
+
+7. No package do tokens, iremos add o typescript (npm i -D typescript), em seguida "npx tsc --init"
+8. Iremos instalar o [tsup](https://github.com/egoist/tsup), lançando o comando "npm i -D tsup" (Ferramenta para fazer a conversão de TS -> JS ou ECMA) 
+9. Após a instalação do tsup iremos adicionar dois scripts
+
+```JSON
+{
+  // ...
+  "scripts": {
+    "build": "tsup src/index.ts --format em,cjs --dts",
+    "dev": "tsup src/index.ts --format em,cjs --dts --watch"
+  },
+  // ...
+}
 ```
